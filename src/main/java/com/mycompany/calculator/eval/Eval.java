@@ -21,6 +21,7 @@ public class Eval {
      * 
      * @param expression A Mathematical expression in infix notation.
      * @return The result as string.
+     * @throws java.lang.Exception
      */
     public static String evaluate(String expression) throws Exception {
         if (expression.replaceAll("\\s", "").equals("")) {
