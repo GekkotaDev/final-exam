@@ -19,10 +19,10 @@ The logic required should be in the `com.mycompany.calculator.eval` namespace an
 can be imported and used via the following code.
 
 ```diff
-+ import com.mycompany.calculator.eval.Eval
++ import com.mycompany.calculator.eval.Eval;
 
   public class Main {
-    public static void main(String[] args) throws Exception {
++   public static void main(String[] args) throws Exception {
 +     final String result = Eval.evaluate("1 / 0");
 +     System.out.println(result);
     }
